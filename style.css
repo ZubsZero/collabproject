@@ -1,0 +1,95 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.navigate {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 0;
+    height: 100px;
+}
+
+.navigate ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none
+    
+
+    }
+
+
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(./img/backgroundWEB.jpg);
+}
+
+.navigate img {
+    size: 2px;
+    width: 2;
+    padding: 2;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    border-radius: 70%;
+    
+    
+}
+
+.header-content  {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: 20;
+    border-color: blue;
+
+}
+
+.header-content div h1 {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.lists {
+    text-decoration: none;
+
+}
+
+.header-text1 {
+    justify-content: center;
+    color: white;
+    width: auto;
+    padding: 200px;
+    text-align: center;
+    
+}
+
+.header-text1 h1 {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.header-content nav ul li a {
+    text-decoration: none;
+    justify-self: end;
+    justify-content: end;
+}
+
+.content {
+    align-items: center;
+    text-align: center;
+    
+}
+
+.login {
+    text-decoration: none;
+    
+}
