@@ -1,5 +1,4 @@
 * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -12,13 +11,16 @@
     justify-content: space-between;
     padding: 35px 0;
     height: 100px;
+    border: 1px red;
 }
 
 .navigate ul li {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
-    text-decoration: none
+    color: aqua;
+    border: 1px red;
+
     
 
     }
@@ -26,7 +28,13 @@
 
 
 body {
-    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(./img/backgroundWEB.jpg);
+    background: url(./img/backgroundWEB.jpg);
+    background-size: 220vh;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    
+    
+    
 }
 
 .navigate img {
@@ -59,28 +67,38 @@ body {
 }
 
 .lists {
-    text-decoration: none;
+    color: aqua;
+    background: transparent;
+   border: 1px;
+
+
 
 }
+
 
 .header-text1 {
     justify-content: center;
-    color: white;
+    color: rgb(255, 255, 255);
     width: auto;
     padding: 200px;
     text-align: center;
+    font-size: 50px;
+    
+    
+}
+    
+
+
+.header-text1 h1 {
+    font-weight: 400;
     
 }
 
-.header-text1 h1 {
-    text-decoration: none;
-    font-weight: 400;
-}
-
 .header-content nav ul li a {
-    text-decoration: none;
     justify-self: end;
     justify-content: end;
+    text-decoration: none;
+    
 }
 
 .content {
@@ -91,5 +109,67 @@ body {
 
 .login {
     text-decoration: none;
+    background-color: transparent;
+    padding: 10px 25px;
+    font-size: 24px;
+    
+
     
 }
+
+.sign-in {
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline- block;
+    background-color: transparent;
+    font-size: 24px;
+
+}
+
+section div h1 {
+    padding: 25px 15px;
+    
+    
+}
+
+.sign-in:hover {
+    background-color: aquamarine;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.login:hover {
+    background-color: aquamarine;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+
+}
+
+
+section .login {
+    text-decoration: none;
+}
+
+.footer {
+    background: linear-gradient( rgb(56, 26, 56), rgb(16, 45, 92));
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin: 3px;
+    padding: 10px;
+
+    
+}
+
+.icons {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+    
+
