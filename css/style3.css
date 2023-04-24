@@ -1,0 +1,21 @@
+.about {
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/058/125/336/large/david-mork-37.jpg?1673445030);
+    background-repeat: no-repeat cover;
+}
+
+.about-title {
+    text-align: left;
+    padding: 15px;
+    font-size: 40px;
+    font-weight: 40;
+    color: black;
+    text-decoration: underline 5px;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 40;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
