@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    
 }
 
 .navigate {
@@ -11,7 +12,8 @@
     justify-content: space-between;
     padding: 35px 0;
     height: 100px;
-    border: 1px red;
+    
+    
 }
 
 .navigate ul li {
@@ -25,13 +27,31 @@
 
     }
 
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+h1 {
+    color: gold;
+    border: 3px solid;
+    border-radius: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
 
 
 body {
     background: url(./img/backgroundWEB.jpg);
     background-size: 220vh;
     background-repeat: no-repeat;
-    margin-bottom: 20px;
+    min-height: 100vh;
+    
     
     
     
@@ -69,11 +89,14 @@ body {
 .lists {
     color: aqua;
     background: transparent;
-   border: 1px;
+   border: 1px solid;
+   border-radius: 20px;
+   border-width: 5px;
 
 
 
 }
+
 
 
 .header-text1 {
@@ -133,14 +156,14 @@ section div h1 {
 }
 
 .sign-in:hover {
-    background-color: aquamarine;
+    background-color: rgb(0, 0, 0);
     text-decoration: none;
     text-transform: uppercase;
 
 }
 
 .login:hover {
-    background-color: aquamarine;
+    background-color: rgb(0, 0, 0);
     text-decoration: none;
     text-transform: uppercase;
     
@@ -152,13 +175,18 @@ section .login {
     text-decoration: none;
 }
 
-.footer {
+footer {
     background: linear-gradient( rgb(56, 26, 56), rgb(16, 45, 92));
     color: white;
     font-size: 10px;
+    justify-content: flex-end;
     text-align: center;
-    margin: 3px;
-    padding: 10px;
+    margin-bottom: 0;
+    height: 49px;
+
+
+    
+    
 
     
 }
@@ -167,9 +195,34 @@ section .login {
     text-align: center;
     display: flex;
     flex-direction: row;
+    
+    
 
     
 }
+
+li:hover {
+    text-transform: uppercase;
+    background-color: black;
+    text-decoration: underline;
+
+
+}
+
+li:hover::after {
+    text-decoration: underline;
+}
+
+.btn2 {
+    min-height: 23vh;
+}
+
+
+
+
+
+
+
 
     
 
