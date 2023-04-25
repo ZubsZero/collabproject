@@ -1,169 +1,180 @@
-html{
+html {
   background-image: url(./img/backgroundWEB.jpg);
-  width:100%;
-  background-repeat:no-repeat;
+  width: 100%;
+  background-repeat: no-repeat;
 }
-.heading{
-    font-size: 100px;
-    height: 100px;
-    size:100px;
-    color:#ffffff;
-    width:70%;
-    justify-content: center;
-}
-input[type=text], select, textarea {
-    text-transform: uppercase;
-    width: 99%; 
-    padding: 10px; 
-    border: 1px solid rgb(208, 215, 231); 
-    border-radius: 5px;
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px;
-    resize: vertical;
-    background-color: rgb(208, 215, 231);
-    color: rgb(6, 6, 6);
-    margin-left: 30px;
-    margin-right: 10px;
-  }
-
-  input[type=number] {
-    background: rgb(208, 215, 231);
-    color: rgb(0, 0, 0);
-    width: 99%; 
-    padding: 10px; 
-    border: 1px solid #0f0f0f;
-    border-radius: 5px;
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical;
-    margin-right: 10px;
-    margin-left: 30px;
-  }
-  .form1{
-    width: 90%;
-    background-size:100%;
-    height:600px;
-    color: #d9ccf3;
-    font-size: 16px;
-    margin-left: 30px;
-    margin-right: 10px;
-    justify-content: center;
-    
-  }
-  
-  .navigation {
-    border-style: border-box;
-    display: flex;
-    width: 90%;
-    margin: auto;
-    align-items: center;
-    justify-content: space-between;
-    padding: 35px 0;
-    height: 100px;
+.heading {
+  font-size: 100px;
+  height: 100px;
+  size: 100px;
+  color: #ffffff;
+  width: 100%;
+  justify-content: center;
 }
 
-.logo{
-    size: 2px;
-    width: 2;
-    padding: 5;
-    height: 130px;
-    align-items: center;
-    justify-content: center;
-    opacity: 0.9;
-    border-radius: 70%;
+.navigation {
+  border-style: border-box;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 0;
+  height: 100px;
+}
+
+.nav-bar {
+  border: 1px solid rgb(208, 215, 231);
+  border-radius: 50px;
+  background-color: rgb(177, 187, 209);
+  margin-top: 10px;
+  color: #ffa10b;
+}
+
+.logo {
+  size: 2px;
+  width: 2;
+  padding: 5;
+  height: 130px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  border-radius: 70%;
 }
 
 .home {
-    border: 1px solid #ffffff;
-    background-color:rgb(208, 215, 231);
-    padding: 3px;
-    border-radius:7px;
-    margin-right:  60px;
+  font-size: 20px;
+  padding: 3px;
+  border-radius: 7px;
+  margin-right: 60px;
+  text-transform: lowercase;
 }
-.home :hover{
-    border: 1px solid #ffffff;
-    background-color:rgba(211, 234, 234, 0.055);
-    padding: 3px;
-    border-radius:10px;
-    font-size:20px;
+.home :hover {
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 25px;
+  text-transform: uppercase;
 }
 .contact {
-    border: 1px solid #ffffff;
-    background-color: rgb(208, 215, 231);
-    padding: 3px;
-     border-radius:7px;
-     margin-right:  60px;
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-transform: lowercase;
+  margin-right: 60px;
 }
 
-.contact :hover{
-  border: 1px solid #ffffff;
-  background-color:rgba(211, 234, 234, 0.055);
+.contact :hover {
   padding: 3px;
-  border-radius:10px;
-  font-size:20px;
+  border-radius: 10px;
+  font-size: 25px;
+  text-transform: uppercase;
 }
 
 .about {
-    border: 1px solid #ffffff;
-    background-color: rgb(208, 215, 231);
-    padding: 3px;
-    border-radius: 7px;
-    margin-right: 60px;
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-transform: lowercase;
+  margin-right: 60px;
 }
 
-.about :hover{
-  border: 1px solid #ffffff;
-  background-color:rgba(211, 234, 234, 0.055)s;
+.about :hover {
   padding: 3px;
-  border-radius:10px;
-font-size:20px;
+  border-radius: 10px;
+  font-size: 25px;
+  text-transform: uppercase;
 }
 
 .navigation ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    text-decoration: none
-    
-
-    }
- 
-  input[type=submit] {
-    background-color: #ffa10b;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #f51d1d;
-    color:white;
-  }
-
-  body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 0;
-    margin: 0;
-    margin-left: 30px;
-    
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
 }
 
-li{
-  color:#ffffff;
+.navigation ul {
+  padding: 0px;
+  margin-top: 0;
+  justify-content: center;
+}
+
+input[type="text"],
+select,
+textarea {
+  text-transform: uppercase;
+  width: 100%;
+  padding: 30px;
+  border: 1px solid rgb(208, 215, 231);
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: rgb(208, 215, 231);
+  color: rgb(6, 6, 6);
+  margin-left: 45px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+input[type="number"] {
+  background: rgb(208, 215, 231);
+  color: rgb(0, 0, 0);
+  width: 100%;
+  padding: 30px;
+  border: 1px solid #0f0f0f;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  margin-right: 10px;
+  margin-left: 45px;
+  font-size: 15px;
+}
+
+.form1 {
+  width: 75%;
+  background-size: 100%;
+  height: 600px;
+  color: #d9ccf3;
+  font-size: 30px;
+  margin-left: 200px;
+  margin-right: 10px;
+  justify-content: center;
+}
+
+input[type="submit"] {
+  background-color: #ffa10b;
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 45px;
+  margin-right: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0fdd53;
+  color: white;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-left: 45px;
 }
 
 .footer {
-  background: linear-gradient( rgb(56, 26, 56), rgb(16, 45, 92));
+  background: linear-gradient(rgb(56, 26, 56), rgb(16, 45, 92));
   color: white;
   font-size: 10px;
-  margin-bottom: -100px;
-  width: 100%;
+  width: auto;
+  margin-left: -43px;
+  padding: 5px;
+  margin-top: 260px;
 }
 
 .icons {
@@ -176,7 +187,8 @@ li{
   font-size: 20px;
 }
 
-
-label{
-  margin-left: 30px;
+label {
+  margin-left: 50px;
+  font-size: 30px;
+  /* Headings of labels */
 }

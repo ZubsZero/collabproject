@@ -1,9 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    
 }
-
 .navigate {
     display: flex;
     width: 85%;
@@ -12,51 +10,25 @@
     justify-content: space-between;
     padding: 35px 0;
     height: 100px;
-    
-    
 }
-
-.navigate ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    color: aqua;
-    border: 1px red;
-
-    
-
-    }
-
 a {
-    color: aqua;
+    color: red;
     text-decoration: none;
 }
-
 h1 {
     color: gold;
     border: 3px solid;
     border-radius: 30px;
 }
-
 p {
     font-size: 20px;
 }
-
-
-
-
-
 body {
     background: url(./img/backgroundWEB.jpg);
     background-size: 220vh;
     background-repeat: no-repeat;
     min-height: 100vh;
-    
-    
-    
-    
 }
-
 .navigate img {
     size: 2px;
     width: 2;
@@ -66,10 +38,7 @@ body {
     justify-content: center;
     opacity: 0.9;
     border-radius: 70%;
-    
-    
 }
-
 .header-content  {
     color: white;
     justify-content: center;
@@ -77,28 +46,12 @@ body {
     font-size: 30px;
     border: 20;
     border-color: blue;
-
 }
-
 .header-content div h1 {
     align-items: center;
     justify-content: center;
     justify-items: center;
 }
-
-.lists {
-    color: aqua;
-    background: transparent;
-   border: 1px solid;
-   border-radius: 20px;
-   border-width: 5px;
-
-
-
-}
-
-
-
 .header-text1 {
     justify-content: center;
     color: rgb(255, 255, 255);
@@ -106,124 +59,127 @@ body {
     padding: 200px;
     text-align: center;
     font-size: 50px;
-    
-    
 }
-    
-
-
 .header-text1 h1 {
     font-weight: 400;
-    
 }
-
 .header-content nav ul li a {
     justify-self: end;
     justify-content: end;
     text-decoration: none;
-    
 }
-
 .content {
     align-items: center;
     text-align: center;
-    
 }
-
 .login {
     text-decoration: none;
     background-color: transparent;
     padding: 10px 25px;
     font-size: 24px;
-    
-
-    
 }
-
 .sign-in {
     text-decoration: none;
     padding: 10px 25px;
     display: inline- block;
     background-color: transparent;
     font-size: 24px;
-
 }
-
 section div h1 {
     padding: 25px 15px;
-    
-    
 }
-
 .sign-in:hover {
     background-color: rgb(0, 0, 0);
     text-decoration: none;
     text-transform: uppercase;
-
 }
-
 .login:hover {
     background-color: rgb(0, 0, 0);
     text-decoration: none;
     text-transform: uppercase;
-    
-
 }
-
-
 section .login {
     text-decoration: none;
 }
-
 footer {
     background: linear-gradient( rgb(56, 26, 56), rgb(16, 45, 92));
     color: white;
     font-size: 10px;
     justify-content: flex-end;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 161px;
     height: 49px;
-
-
-    
-    
-
-    
 }
-
 .icons {
     text-align: center;
     display: flex;
     flex-direction: row;
-    
-    
-
-    
 }
-
 li:hover {
     text-transform: uppercase;
     background-color: black;
     text-decoration: underline;
-
-
 }
-
 li:hover::after {
     text-decoration: underline;
 }
-
 .btn2 {
     min-height: 23vh;
     margin-top: -162px;
 }
-
-
-
-
-
-
-
-
-    
-
+.about {
+    background-image: url(https://images.unsplash.com/photo-1519638157102-4da934548801?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80);
+    background-repeat: no-repeat cover;
+}
+.about-title {
+    text-align: left;
+    padding: 12px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline 5px;
+    text-align: center;
+}
+p {
+    font-size: 25px;
+    font-weight: 40;
+    padding: 16px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+.about-footer {
+    background: linear-gradient( rgb(148, 148, 148), rgb(46, 46, 46));
+    color: white;
+    font-size: 10px;
+    justify-content: flex-end;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    height: 76px;
+    min-height: 0hv;
+}
+.navigate ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    color: rgba(255, 0, 0, 0.793);
+}
+.about-header-content  {
+        color: white;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        border: 20;
+        border-color: blue;
+    }
+.about-list {
+        color: rgb(0, 0, 0);
+        background: transparent;
+       border-radius: 20px;
+       border-width: 5px;
+    }
+    nav {
+        border: 2px solid red;
+        border-radius: 30px;
+    }
